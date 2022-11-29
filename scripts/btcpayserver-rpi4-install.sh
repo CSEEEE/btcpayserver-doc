@@ -133,7 +133,7 @@ systemctl disable dphys-swapfile
 
 # Install BTCPayServer
 cd /root
-git clone https://github.com/btcpayserver/btcpayserver-docker
+git clone https://github.com/zeuspayments/btcpayserver-docker
 cd btcpayserver-docker
 . btcpay-setup.sh -i
 sleep 10
